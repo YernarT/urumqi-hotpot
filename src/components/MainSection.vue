@@ -24,7 +24,7 @@ defineOptions({ name: "MainSection" });
 
 const clickAnimationRef = ref();
 
-onMounted(() => useClickAnimation(clickAnimationRef.value));
+// onMounted(() => useClickAnimation(clickAnimationRef.value));
 </script>
 
 <style scoped lang="scss">
