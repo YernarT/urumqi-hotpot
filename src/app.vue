@@ -45,25 +45,8 @@
 // Antd
 import { ConfigProvider } from "ant-design-vue";
 import { ANTD_THEME } from "@/constants/antd";
-// Firebase
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 
 defineOptions({ name: "App" });
-
-const firebaseConfig = {
-  apiKey: "AIzaSyBGTiX7qh7O9vgyE2LWcSIQsYDQSMU18gs",
-  authDomain: "urumqi-hotpot.firebaseapp.com",
-  projectId: "urumqi-hotpot",
-  storageBucket: "urumqi-hotpot.firebasestorage.app",
-  messagingSenderId: "846069488761",
-  appId: "1:846069488761:web:cff1f59bd36a793a9288a8",
-  measurementId: "G-9XNWX5WF23"
-};
-
-// Initialize Firebase
-const firebaseApp = initializeApp(firebaseConfig);
-getAnalytics(firebaseApp);
 </script>
 
 <style>
