@@ -1,0 +1,20 @@
+:root {
+  /* 色彩模式 */
+  color-scheme: LIGHT;
+
+  /* 调色盘 */
+  --c-primary: #1191ff;
+  --c-success: #389e0d;
+  --c-error: #ff4d4f;
+  --c-warning: #ffc53d;
+  --c-border: rgba(0, 0, 0, 0.25);
+  --c-background: rgba(255, 255, 255, 0.6);
+
+  /* 排版 */
+  --c-text: #fafafa;
+  --c-text-secondary: rgba(0, 0, 0, 0.85);
+  --c-text-muted: #6c757d;
+
+  /* 过渡贝塞尔曲线 */
+  --transition: 300ms ease;
+}
